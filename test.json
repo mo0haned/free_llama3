@@ -1,0 +1,742 @@
+{
+    "type": "data",
+    "nodes": [
+        {
+            "type": "data",
+            "data": [
+                {
+                    "conversations": 1,
+                    "settings": 12,
+                    "models": 19,
+                    "oldModels": 169,
+                    "assistants": 192,
+                    "user": -1,
+                    "assistant": 7,
+                    "enableAssistants": 13,
+                    "enableAssistantsRAG": 13,
+                    "loginRequired": 15,
+                    "loginEnabled": 13,
+                    "guestMode": 13
+                },
+                [
+                    2,
+                    8
+                ],
+                {
+                    "id": 3,
+                    "title": 4,
+                    "model": 5,
+                    "updatedAt": 6,
+                    "assistantId": -1,
+                    "avatarHash": 7
+                },
+                "6646e38a5fac78ef0a48129a",
+                "New Chat",
+                "meta-llama/Meta-Llama-3-70B-Instruct",
+                [
+                    "Date",
+                    "2024-05-17T04:56:42.901Z"
+                ],
+                null,
+                {
+                    "id": 9,
+                    "title": 10,
+                    "model": 5,
+                    "updatedAt": 11,
+                    "assistantId": -1,
+                    "avatarHash": 7
+                },
+                "6646e0e95fac78ef0a480fe5",
+                "🤖 API analysis",
+                [
+                    "Date",
+                    "2024-05-17T04:47:18.349Z"
+                ],
+                {
+                    "searchEnabled": 13,
+                    "ethicsModalAccepted": 13,
+                    "ethicsModalAcceptedAt": 14,
+                    "activeModel": 5,
+                    "hideEmojiOnSidebar": 15,
+                    "shareConversationsWithModelAuthors": 13,
+                    "customPrompts": 16,
+                    "assistants": 18
+                },
+                true,
+                [
+                    "Date",
+                    "2024-05-17T04:44:29.208Z"
+                ],
+                false,
+                {
+                    "CohereForAI/c4ai-command-r-plus": 17,
+                    "meta-llama/Meta-Llama-3-70B-Instruct": 17
+                },
+                "",
+                [],
+                [
+                    20,
+                    43,
+                    60,
+                    75,
+                    91,
+                    107,
+                    122,
+                    136,
+                    148,
+                    164
+                ],
+                {
+                    "id": 21,
+                    "name": 21,
+                    "websiteUrl": 22,
+                    "modelUrl": 23,
+                    "tokenizer": 24,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 21,
+                    "description": 25,
+                    "logoUrl": 26,
+                    "promptExamples": 27,
+                    "parameters": 37,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "CohereForAI/c4ai-command-r-plus",
+                "https://docs.cohere.com/docs/command-r-plus",
+                "https://huggingface.co/CohereForAI/c4ai-command-r-plus",
+                "Xenova/c4ai-command-r-v01-tokenizer",
+                "Command R+ is Cohere's latest LLM and is the first open weight model to beat GPT4 in the Chatbot Arena!",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/cohere-logo.png",
+                [
+                    28,
+                    31,
+                    34
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                "Write an email from bullet list",
+                "As a restaurant owner, write a professional email to the supplier to get these products every week: \n\n- Wine (x10)\n- Eggs (x24)\n- Bread (x12)",
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                "Code a snake game",
+                "Code a basic snake game in python, give explanations for each step.",
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                "Assist in a task",
+                "How do I make a delicious lemon cheesecake?",
+                {
+                    "temperature": 38,
+                    "truncate": 39,
+                    "max_new_tokens": 40,
+                    "stop": 41,
+                    "stop_sequences": 41
+                },
+                0.3,
+                28672,
+                4096,
+                [
+                    42
+                ],
+                "\u003C|END_OF_TURN_TOKEN|>",
+                {
+                    "id": 5,
+                    "name": 5,
+                    "websiteUrl": 44,
+                    "modelUrl": 45,
+                    "tokenizer": 46,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 5,
+                    "description": 47,
+                    "logoUrl": 48,
+                    "promptExamples": 49,
+                    "parameters": 53,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "https://llama.meta.com/llama3/",
+                "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",
+                "philschmid/meta-llama-3-tokenizer",
+                "Generation over generation, Meta Llama 3 demonstrates state-of-the-art performance on a wide range of industry benchmarks and offers new capabilities, including improved reasoning.",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/meta-logo.png",
+                [
+                    50,
+                    51,
+                    52
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "temperature": 54,
+                    "truncate": 55,
+                    "max_new_tokens": 56,
+                    "stop": 57,
+                    "top_p": 59,
+                    "stop_sequences": 57
+                },
+                0.6,
+                6144,
+                2047,
+                [
+                    58
+                ],
+                "\u003C|eot_id|>",
+                0.9,
+                {
+                    "id": 61,
+                    "name": 61,
+                    "websiteUrl": 62,
+                    "modelUrl": 62,
+                    "tokenizer": 61,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 61,
+                    "description": 63,
+                    "logoUrl": 64,
+                    "promptExamples": 65,
+                    "parameters": 71,
+                    "preprompt": 74,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+                "https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+                "Zephyr 141B-A35B is a fine-tuned version of Mistral 8x22B, trained using ORPO, a novel alignment algorithm.",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/zephyr-logo.png",
+                [
+                    66,
+                    69,
+                    70
+                ],
+                {
+                    "title": 67,
+                    "prompt": 68
+                },
+                "Write a poem",
+                "Write a poem to help me remember the first 10 elements on the periodic table, giving each element its own line.",
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "temperature": 54,
+                    "truncate": 72,
+                    "max_new_tokens": 73,
+                    "stop_sequences": -1
+                },
+                24576,
+                8192,
+                "You are Zephyr, an assistant developed by KAIST AI, Argilla, and Hugging Face. You should give concise responses to very simple questions, but provide thorough responses to more complex and open-ended questions. You are happy to help with writing, analysis, question answering, math, coding, and all sorts of other tasks.",
+                {
+                    "id": 76,
+                    "name": 76,
+                    "websiteUrl": 77,
+                    "modelUrl": 78,
+                    "tokenizer": 76,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 76,
+                    "description": 79,
+                    "logoUrl": 80,
+                    "promptExamples": 81,
+                    "parameters": 85,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "mistralai/Mixtral-8x7B-Instruct-v0.1",
+                "https://mistral.ai/news/mixtral-of-experts/",
+                "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+                "The latest MoE model from Mistral AI! 8x7B and outperforms Llama 2 70B in most benchmarks.",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/mistral-logo.png",
+                [
+                    82,
+                    83,
+                    84
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "temperature": 54,
+                    "truncate": 72,
+                    "max_new_tokens": 73,
+                    "stop": 86,
+                    "top_p": 88,
+                    "top_k": 89,
+                    "repetition_penalty": 90,
+                    "stop_sequences": 86
+                },
+                [
+                    87
+                ],
+                "\u003C/s>",
+                0.95,
+                50,
+                1.2,
+                {
+                    "id": 92,
+                    "name": 92,
+                    "websiteUrl": 93,
+                    "modelUrl": 94,
+                    "tokenizer": 92,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 92,
+                    "description": 95,
+                    "logoUrl": 96,
+                    "promptExamples": 97,
+                    "parameters": 101,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+                "https://nousresearch.com/",
+                "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+                "Nous Hermes 2 Mixtral 8x7B DPO is the new flagship Nous Research model trained over the Mixtral 8x7B MoE LLM.",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/nous-logo.png",
+                [
+                    98,
+                    99,
+                    100
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "temperature": 102,
+                    "truncate": 72,
+                    "max_new_tokens": 103,
+                    "stop": 104,
+                    "top_p": 88,
+                    "top_k": 89,
+                    "repetition_penalty": 106,
+                    "stop_sequences": 104
+                },
+                0.7,
+                2048,
+                [
+                    105
+                ],
+                "\u003C|im_end|>",
+                1,
+                {
+                    "id": 108,
+                    "name": 108,
+                    "websiteUrl": 109,
+                    "modelUrl": 110,
+                    "tokenizer": 108,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 108,
+                    "description": 111,
+                    "logoUrl": 112,
+                    "promptExamples": 113,
+                    "parameters": 117,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "01-ai/Yi-1.5-34B-Chat",
+                "https://www.01.ai",
+                "https://huggingface.co/01-ai/Yi-1.5-34B-Chat",
+                "Yi-1.5 is an upgraded version of Yi. It is continuously pre-trained on Yi with a high-quality corpus of 500B tokens and fine-tuned on 3M diverse fine-tuning samples.",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/01-ai-logo.png",
+                [
+                    114,
+                    115,
+                    116
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "temperature": 38,
+                    "truncate": 118,
+                    "max_new_tokens": 119,
+                    "stop": 120,
+                    "top_p": 121,
+                    "stop_sequences": 120
+                },
+                1000,
+                1024,
+                [
+                    105
+                ],
+                0.8,
+                {
+                    "id": 123,
+                    "name": 123,
+                    "websiteUrl": 124,
+                    "modelUrl": 125,
+                    "tokenizer": -1,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 123,
+                    "description": 126,
+                    "logoUrl": 127,
+                    "promptExamples": 128,
+                    "parameters": 132,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "google/gemma-1.1-7b-it",
+                "https://blog.google/technology/developers/gemma-open-models/",
+                "https://huggingface.co/google/gemma-1.1-7b-it",
+                "Gemma 7B 1.1 is the latest release in the Gemma family of lightweight models built by Google, trained using a novel RLHF method.",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/google-logo.png",
+                [
+                    129,
+                    130,
+                    131
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "truncate": 133,
+                    "max_new_tokens": 119,
+                    "stop": 134,
+                    "do_sample": 13,
+                    "stop_sequences": 134
+                },
+                7168,
+                [
+                    135
+                ],
+                "\u003Cend_of_turn>",
+                {
+                    "id": 137,
+                    "name": 137,
+                    "websiteUrl": 138,
+                    "modelUrl": 139,
+                    "tokenizer": 137,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 137,
+                    "description": 140,
+                    "logoUrl": 80,
+                    "promptExamples": 141,
+                    "parameters": 145,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "mistralai/Mistral-7B-Instruct-v0.2",
+                "https://mistral.ai/news/announcing-mistral-7b/",
+                "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+                "Mistral 7B is a new Apache 2.0 model, released by Mistral AI that outperforms Llama2 13B in benchmarks.",
+                [
+                    142,
+                    143,
+                    144
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "temperature": 38,
+                    "truncate": 146,
+                    "max_new_tokens": 119,
+                    "stop": 147,
+                    "top_p": 88,
+                    "top_k": 89,
+                    "repetition_penalty": 90,
+                    "stop_sequences": 147
+                },
+                3072,
+                [
+                    87
+                ],
+                {
+                    "id": 149,
+                    "name": 149,
+                    "websiteUrl": 150,
+                    "modelUrl": 151,
+                    "tokenizer": 149,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 149,
+                    "description": 152,
+                    "logoUrl": 153,
+                    "promptExamples": 154,
+                    "parameters": 158,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 15
+                },
+                "microsoft/Phi-3-mini-4k-instruct",
+                "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/",
+                "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+                "Phi-3 Mini-4K-Instruct is a 3.8B parameters, lightweight, state-of-the-art open model built upon datasets used for Phi-2.",
+                "https://huggingface.co/datasets/huggingchat/models-logo/resolve/main/microsoft-logo.png",
+                [
+                    155,
+                    156,
+                    157
+                ],
+                {
+                    "title": 29,
+                    "prompt": 30
+                },
+                {
+                    "title": 32,
+                    "prompt": 33
+                },
+                {
+                    "title": 35,
+                    "prompt": 36
+                },
+                {
+                    "temperature": 102,
+                    "truncate": 159,
+                    "max_new_tokens": 119,
+                    "stop": 160,
+                    "stop_sequences": 160
+                },
+                3071,
+                [
+                    161,
+                    162,
+                    163
+                ],
+                "\u003C|end|>",
+                "\u003C|endoftext|>",
+                "\u003C|assistant|>",
+                {
+                    "id": 165,
+                    "name": 165,
+                    "websiteUrl": -1,
+                    "modelUrl": -1,
+                    "tokenizer": 46,
+                    "datasetName": -1,
+                    "datasetUrl": -1,
+                    "displayName": 165,
+                    "description": -1,
+                    "logoUrl": -1,
+                    "promptExamples": -1,
+                    "parameters": 166,
+                    "preprompt": 17,
+                    "multimodal": 15,
+                    "unlisted": 13
+                },
+                "meta-llama/Meta-Llama-3-8B-Instruct",
+                {
+                    "temperature": 167,
+                    "stop": 168,
+                    "stop_sequences": 168
+                },
+                0.1,
+                [
+                    58
+                ],
+                [
+                    170,
+                    172,
+                    174,
+                    176,
+                    178,
+                    180,
+                    182,
+                    184,
+                    186,
+                    188,
+                    190
+                ],
+                {
+                    "name": 171,
+                    "id": 171,
+                    "displayName": 171
+                },
+                "bigcode/starcoder",
+                {
+                    "name": 173,
+                    "id": 173,
+                    "displayName": 173
+                },
+                "OpenAssistant/oasst-sft-6-llama-30b-xor",
+                {
+                    "name": 175,
+                    "id": 175,
+                    "displayName": 175
+                },
+                "HuggingFaceH4/zephyr-7b-alpha",
+                {
+                    "name": 177,
+                    "id": 177,
+                    "displayName": 177
+                },
+                "openchat/openchat_3.5",
+                {
+                    "name": 179,
+                    "id": 179,
+                    "displayName": 179
+                },
+                "openchat/openchat-3.5-1210",
+                {
+                    "name": 181,
+                    "id": 181,
+                    "displayName": 181
+                },
+                "tiiuae/falcon-180B-chat",
+                {
+                    "name": 183,
+                    "id": 183,
+                    "displayName": 183
+                },
+                "codellama/CodeLlama-34b-Instruct-hf",
+                {
+                    "name": 185,
+                    "id": 185,
+                    "displayName": 185
+                },
+                "google/gemma-7b-it",
+                {
+                    "name": 187,
+                    "id": 187,
+                    "displayName": 187
+                },
+                "meta-llama/Llama-2-70b-chat-hf",
+                {
+                    "name": 189,
+                    "id": 189,
+                    "displayName": 189
+                },
+                "codellama/CodeLlama-70b-Instruct-hf",
+                {
+                    "name": 191,
+                    "id": 191,
+                    "displayName": 191
+                },
+                "openchat/openchat-3.5-0106",
+                []
+            ],
+            "uses": {
+                "dependencies": [
+                    "conversation:list"
+                ]
+            }
+        },
+        {
+            "type": "data",
+            "data": [
+                {
+                    "messages": 1,
+                    "title": 10,
+                    "model": 11,
+                    "preprompt": 5,
+                    "rootMessageId": 3,
+                    "assistant": 12,
+                    "shared": 13
+                },
+                [
+                    2
+                ],
+                {
+                    "id": 3,
+                    "from": 4,
+                    "content": 5,
+                    "createdAt": 6,
+                    "updatedAt": 7,
+                    "children": 8,
+                    "ancestors": 9
+                },
+                "e945b2a7-74bd-4d04-8925-daa9226b9d87",
+                "system",
+                "",
+                [
+                    "Date",
+                    "2024-05-17T04:56:42.899Z"
+                ],
+                [
+                    "Date",
+                    "2024-05-17T04:56:42.899Z"
+                ],
+                [],
+                [],
+                "New Chat",
+                "meta-llama/Meta-Llama-3-70B-Instruct",
+                null,
+                false
+            ],
+            "uses": {
+                "dependencies": [
+                    "https://huggingface.co/chat/conversation/conversation"
+                ],
+                "params": [
+                    "id"
+                ]
+            }
+        }
+    ]
+}
